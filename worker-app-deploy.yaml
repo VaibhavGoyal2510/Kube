@@ -18,7 +18,7 @@ spec:
         app: demo-voting-app
     spec:
       containers:
-        - name: worker-app
+        - name: worker-app-pod
           image: kodekloud/examplevotingapp_worker:v1
           ports:
             - containerPort: 80
